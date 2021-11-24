@@ -4,10 +4,10 @@ const Pair = artifacts.require('UniswapV2Pair');
 const Token1 = artifacts.require('Token1');
 const Token2 = artifacts.require('Token2');
 module.exports = async function (deployer, network) {
-    const factoryAddress = '0xef21b3754fa928b4B251EE4B12C7e4D32B710C1C';
-    const token1Address = '0xb1Ff5817dd522b70b13e4A12C5F3BBD1638a9003';
-    const token2Address = '0xa2f925EdFBdFa92a546382cEE4f5B8dde0d3Db01';
-    const routerAddress = '0x32db9F71B32D43Cfd17058Bd11cf9aC3c52661B3';
+    const factoryAddress = '0x0fd48d06acc75646CB9122E20Ef7BC6791FF301C';
+    const token1Address = '0x4B6d670782d143353196e8Cb5d8A2C0FAB45EFd6';
+    const token2Address = '0xc4D6a1875174F1b752a20e1088448A7685BEe45E';
+    const routerAddress = '0xFb67744C8D9885B296D8DAD629f5f2c485f2A2c8';
     try {
         const [admin, _] = await web3.eth.getAccounts();
         const factory = await Factory.at(factoryAddress);

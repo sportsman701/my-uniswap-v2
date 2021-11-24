@@ -27,10 +27,7 @@
 require('dotenv').config();
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
-const provider = new HDWalletProvider({
-  privateKeys: [process.env.PRIVATE_KEY],
-  providerOrUrl: 'https://data-seed-prebsc-1-s1.binance.org:8545/'
-})
+const provider = new HDWalletProvider(process.env.PRIVATE_KEY, 'https://data-seed-prebsc-1-s1.binance.org:8545/')
 
 module.exports = {
   /**
@@ -57,7 +54,7 @@ module.exports = {
     },
     bsctestnet: {
       provider: () => provider,
-      network_id: "97", 
+      network_id: "97",
     },
     // Another network with more advanced options...
     // advanced: {

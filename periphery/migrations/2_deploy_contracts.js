@@ -6,7 +6,7 @@ module.exports = async function (deployer, network) {
   let weth;
   const FACTORY_ADDRESS = config[network].factoryAddress;
 
-  if (network !== 'development') {
+  if (network !== 'development' && network !== 'bsctestnet') {
     weth = await WETH.at(config[network].WETHAddress);
   } else {
     await deployer.deploy(WETH);

@@ -21,26 +21,26 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"getExchange\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/loya/Code/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol\":\"IUniswapV1Factory\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/loya/Code/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol\":{\"keccak256\":\"0x2a554e26d874fa4b10736f2e2ac1ba6253cd1ad08a97bd941cb0a41015565589\",\"urls\":[\"bzz-raw://bbe29db0ebf08621cb4211219c02262be9c7510fe03bab94f849a38993f957d6\",\"dweb:/ipfs/QmTutAVpjg925m4JLqHTvukdTyoTr77FotAUAA2AzGug1f\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"getExchange\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/V1/IUniswapV1Factory.sol\":\"IUniswapV1Factory\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/V1/IUniswapV1Factory.sol\":{\"keccak256\":\"0x2a554e26d874fa4b10736f2e2ac1ba6253cd1ad08a97bd941cb0a41015565589\",\"urls\":[\"bzz-raw://bbe29db0ebf08621cb4211219c02262be9c7510fe03bab94f849a38993f957d6\",\"dweb:/ipfs/QmTutAVpjg925m4JLqHTvukdTyoTr77FotAUAA2AzGug1f\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0;\n\ninterface IUniswapV1Factory {\n    function getExchange(address) external view returns (address);\n}\n",
-  "sourcePath": "/Users/loya/Code/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
+  "sourcePath": "E:\\Blockchain\\Ethereum\\DeFi\\UniswapV2\\my-uniswap-v2\\periphery\\contracts\\interfaces\\V1\\IUniswapV1Factory.sol",
   "ast": {
-    "absolutePath": "/Users/loya/Code/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
+    "absolutePath": "project:/contracts/interfaces/V1/IUniswapV1Factory.sol",
     "exportedSymbols": {
       "IUniswapV1Factory": [
-        5341
+        7151
       ]
     },
-    "id": 5342,
+    "id": 7152,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5333,
+        "id": 7143,
         "literals": [
           "solidity",
           ">=",
@@ -48,7 +48,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:16"
+        "src": "0:24:24"
       },
       {
         "abstract": false,
@@ -57,9 +57,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 5341,
+        "id": 7151,
         "linearizedBaseContracts": [
-          5341
+          7151
         ],
         "name": "IUniswapV1Factory",
         "nodeType": "ContractDefinition",
@@ -68,7 +68,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "06f2bf62",
-            "id": 5340,
+            "id": 7150,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -76,18 +76,18 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 5336,
+              "id": 7146,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5335,
+                  "id": 7145,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5340,
-                  "src": "81:7:16",
+                  "scope": 7150,
+                  "src": "81:7:24",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -95,10 +95,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5334,
+                    "id": 7144,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "81:7:16",
+                    "src": "81:7:24",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -109,21 +109,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "80:9:16"
+              "src": "80:9:24"
             },
             "returnParameters": {
-              "id": 5339,
+              "id": 7149,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5338,
+                  "id": 7148,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5340,
-                  "src": "113:7:16",
+                  "scope": 7150,
+                  "src": "113:7:24",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -131,10 +131,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5337,
+                    "id": 7147,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "113:7:16",
+                    "src": "113:7:24",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -145,27 +145,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "112:9:16"
+              "src": "112:9:24"
             },
-            "scope": 5341,
-            "src": "60:62:16",
+            "scope": 7151,
+            "src": "60:62:24",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 5342,
-        "src": "26:98:16"
+        "scope": 7152,
+        "src": "26:98:24"
       }
     ],
-    "src": "0:125:16"
+    "src": "0:125:24"
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/loya/Code/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
+      "absolutePath": "project:/contracts/interfaces/V1/IUniswapV1Factory.sol",
       "exportedSymbols": {
         "IUniswapV1Factory": [
-          5341
+          7151
         ]
       }
     },
@@ -179,9 +179,9 @@
             ".0"
           ]
         },
-        "id": 5333,
+        "id": 7143,
         "name": "PragmaDirective",
-        "src": "0:24:16"
+        "src": "0:24:24"
       },
       {
         "attributes": {
@@ -196,10 +196,10 @@
           "documentation": null,
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            5341
+            7151
           ],
           "name": "IUniswapV1Factory",
-          "scope": 5342
+          "scope": 7152
         },
         "children": [
           {
@@ -215,7 +215,7 @@
               ],
               "name": "getExchange",
               "overrides": null,
-              "scope": 5341,
+              "scope": 7151,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -229,7 +229,7 @@
                       "mutability": "mutable",
                       "name": "",
                       "overrides": null,
-                      "scope": 5340,
+                      "scope": 7150,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -243,19 +243,19 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 5334,
+                        "id": 7144,
                         "name": "ElementaryTypeName",
-                        "src": "81:7:16"
+                        "src": "81:7:24"
                       }
                     ],
-                    "id": 5335,
+                    "id": 7145,
                     "name": "VariableDeclaration",
-                    "src": "81:7:16"
+                    "src": "81:7:24"
                   }
                 ],
-                "id": 5336,
+                "id": 7146,
                 "name": "ParameterList",
-                "src": "80:9:16"
+                "src": "80:9:24"
               },
               {
                 "children": [
@@ -265,7 +265,7 @@
                       "mutability": "mutable",
                       "name": "",
                       "overrides": null,
-                      "scope": 5340,
+                      "scope": 7150,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -279,42 +279,42 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 5337,
+                        "id": 7147,
                         "name": "ElementaryTypeName",
-                        "src": "113:7:16"
+                        "src": "113:7:24"
                       }
                     ],
-                    "id": 5338,
+                    "id": 7148,
                     "name": "VariableDeclaration",
-                    "src": "113:7:16"
+                    "src": "113:7:24"
                   }
                 ],
-                "id": 5339,
+                "id": 7149,
                 "name": "ParameterList",
-                "src": "112:9:16"
+                "src": "112:9:24"
               }
             ],
-            "id": 5340,
+            "id": 7150,
             "name": "FunctionDefinition",
-            "src": "60:62:16"
+            "src": "60:62:24"
           }
         ],
-        "id": 5341,
+        "id": 7151,
         "name": "ContractDefinition",
-        "src": "26:98:16"
+        "src": "26:98:24"
       }
     ],
-    "id": 5342,
+    "id": 7152,
     "name": "SourceUnit",
-    "src": "0:125:16"
+    "src": "0:125:24"
   },
   "compiler": {
     "name": "solc",
     "version": "0.6.6+commit.6c089d02.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-20T04:45:45.532Z",
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-11-24T01:25:41.386Z",
   "devdoc": {
     "methods": {}
   },
